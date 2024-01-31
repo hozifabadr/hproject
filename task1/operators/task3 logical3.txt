@@ -1,0 +1,25 @@
+Homework 3: Simplify these Expressions
+● For each expression:
+○ Step-by-step, manually simplify these until they are simply T or F
+○ Optional: write a line of code to verify your result
+● T && T && F && T (false)
+● T && T && F && T || T && T (true)
+● T && T && T && T || T && (T || F) (true)
+● T && T && T || T && (F || (T && (T && T))) (true)
+● T && T || T && F && T || T && T && F || (T && (T || F)) 
+    T||F||F||T
+         T
+● T && T || T && F && T || (T && T && F || (T && (T || F)))
+      T   ||    F        || (F||T)
+           T              || T
+                   T
+● (T && T || T && F && T || T) && T && F || (T && (T || F))
+    ( T    ||    F||T) &&           F     || T
+            T          &&                  T
+                        T
+● T && T || T && (F && T || T && T) && F || T && (T || F))
+      T   || T &&          T         && F || T&&T
+       T   ||   T&&F||T&&T
+          T||        F||T
+            T||T
+              T
