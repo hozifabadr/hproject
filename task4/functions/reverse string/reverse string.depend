@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1707941594 source:d:\cs tasks\functions\reverse string\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<string>
+

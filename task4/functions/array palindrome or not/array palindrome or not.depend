@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1707978511 source:d:\cs tasks\functions\array palindrome or not\main.cpp
+	<iostream>
+	<array>
+
